@@ -1,0 +1,249 @@
+html {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'Mulish', sans-serif;
+}
+
+.header-bar {
+    /* display: grid;
+    grid-template-columns: 3fr 0.1fr 1fr 0.1fr 1fr;
+    gap: 1em; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.header-bar-right {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.header-bar>p>span {
+    font-weight: 700;
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: white;
+}
+
+#text {
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: #F5FAFE;
+    height: 30px;
+    width: 250px;
+}
+
+#submit {
+    background-color: red;
+    margin-left: -40px;
+    border-radius: 10px;
+    height: 30px;
+    width: 40px;
+    border: 1px solid rgba(0, 0, 0, .4)
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    font-size: 20px;
+}
+
+.profile-info>p:nth-child(3) {
+    font-size: 16px;
+}
+
+.site-sections {
+    background-color: #0A223D;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+body {
+    background-color: #F5FAFE;
+}
+
+#stars {
+    color: #F2994A;
+}
+
+.hilton-hotel-grid {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    text-align: ;
+}
+
+.hilton-hotel-grid>p:nth-child(3) {
+    grid-area: 2 / 1 / 2 / 8;
+}
+
+.hilton-hotel-grid>p:nth-child(1) {
+    grid-area: 1 / 1 / 1 / 4;
+}
+
+.flash-offer {
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    grid-area: 1 / 5 / 2 / 4;
+    height: 20px;
+}
+
+.user-ratings {
+    border: 1px solid red;
+    border-radius: 5px;
+    height: 80px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    grid-area: 1 / 16 / 3 / 16;
+}
+
+.preview-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+
+}
+
+.preview-upper-box {
+    background-color: #0A223D;
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.quick-booking {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.price-preview,
+.room-preview {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.other-options {
+    background-color: #EC1F46;
+    color: white;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.information-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item-underline:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+body>p:nth-child(7) {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.package-summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.package-highlights,
+.offer-details {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.package-highlights-title,
+.offer-details-title,
+.package-summary-details-title {
+    background-color: #0A223D;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.package-highlights-list,
+.offer-details-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 150px;
+    width: 550px;
+    background-color: white;
+    padding: 20px;
+}
+
+#chill-out {
+    width: 200px;
+}
+
+.package-summary-details {
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+.red-lists {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.purchase-inclusions-list>p:nth-child(1),
+.complementary-land-list>p:nth-child(1),
+.complementary-water-list>p:nth-child(1),
+.meal-plan-list>p:nth-child(1),
+.entertainment>p:nth-child(1),
+.check-in-out-list>p:nth-child(1) {
+    color: red;
+}
+
+.purchase-inclusions-list,
+.complementary-land-list,
+.complementary-water-list,
+.meal-plan-list,
+.entertainment,
+.check-in-out-list {
+    width: 300px;
+}
